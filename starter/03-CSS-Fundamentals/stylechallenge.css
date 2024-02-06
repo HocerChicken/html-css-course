@@ -1,0 +1,88 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+.product {
+  border: 4px solid black;
+  font-family: sans-serif;
+}
+
+.container {
+  width: 825px;
+  margin: 50px auto;
+}
+
+.shoe-header {
+  font-size: 22px;
+  background-color: #f7f7f7;
+  text-align: center;
+  text-transform: uppercase;
+  padding: 15px 0;
+}
+
+.shoe-price {
+  font-size: 20px;
+  margin-top: 10px;
+}
+
+.shoe-ship {
+  color: #777;
+  text-transform: uppercase;
+  font-weight: bold;
+  font-size: 12px;
+  margin-bottom: 20px;
+}
+
+.shoe-link:link,
+.shoe-link:visited {
+  color: black;
+}
+
+a.shoe-link:hover {
+  text-decoration: none;
+}
+
+.shoe-detail {
+  text-transform: uppercase;
+  margin-top: 30px;
+  margin-bottom: 15px;
+  font-size: 16px;
+}
+
+.shoe-list {
+  list-style-type: square;
+  margin-left: 20px;
+}
+
+.shoe-list li {
+  margin-bottom: 10px;
+}
+
+.shoe-list li:last-child {
+  padding-bottom: 0px;
+}
+
+.shoe-detail {
+  margin-top: 20px;
+  text-transform: uppercase;
+  font-size: 16px;
+}
+
+.shoe-button {
+  width: 100%;
+  font-size: 20px;
+  color: #f7f7f7;
+  background-color: black;
+  text-transform: uppercase;
+  border: none;
+  cursor: pointer;
+  outline: 0;
+  padding: 15px 0;
+  border-top: 4px solid black;
+}
+
+.shoe-button:hover {
+  color: black;
+  background-color: white;
+}
